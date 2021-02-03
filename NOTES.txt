@@ -1,0 +1,26 @@
+第一组
+1、U1：len函数
+2、U2：count函数
+3、U3：re匹配
+4、U4：count+列表解析
+5、U5：html analysis：获取href  # https://www.cnblogs.com/yanwuming/p/11626790.html
+			   # https://blog.csdn.net/lming_08/article/details/44730749
+6、U6：数 / 的个数即可  # http://www.yijibi.com/neilian/632543.html
+7、U7：re检测IP地址
+
+第二组
+1、H1：len函数
+2、H2：re匹配<...>并删除，replace成 '' 即可 replace('<.+?>', '')  # https://www.cnblogs.com/commissar-Xia/p/11330168.html
+3、H3：找'http://'或者'https://'的数量
+4、H4：找hidden  # https://zhidao.baidu.com/question/392868101666187405.html
+style.display="block"或baistyle.visibility="visible"时控件或见;
+style.display="none"或style.visibility="hidden"时控件不可见。
+5、H5：直接数
+6、H6：直接数
+7、H7：直接数
+8、H8：直接数
+9、H9：直接数
+10：H10：直接数
+
+第三组
+先用re提取所有的jsc语句：https://www.jb51.net/article/139588.htm

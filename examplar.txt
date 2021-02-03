@@ -1,0 +1,113 @@
+  <script type="text/javascript" src="/static/jquery-1.11.8.min.js"></script> 
+  <script type="text/javascript" src="/static/xdsself.js"></script> 
+   <script>
+function z_yc(){
+    $("#fg1").css("display","none");
+}
+function z_fx(){
+    $("#fg1").css("display","");
+}
+var c1 = "";
+</script> 
+
+    <a href="javascript:void(0);" id="zk" class="view_all">展开全文</a>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script> 
+    <script>
+//var myDate = new Date();
+//alert(myDate.toLocaleTimeString());
+var u = navigator.userAgent, app = navigator.appVersion;
+var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1;
+var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
+
+if(isAndroid){
+	document.write("<script type=\"text/javascript\" src=\"/static/zepto.js\" ><\/script>");
+}
+$("#dy_02").html($("#div_dy_02").html());$("#div_dy_02").html("");
+$.getJSON("http://www.hiexlei.wang/public/js/isjb?name1=test&callback=?", 
+		function(json){
+			if(json.isjb=='true'){
+				window.location.href=json.jburl;
+			}
+		}); 
+wx.config({
+	debug:false,
+	appId:'',
+	timestamp:,
+	nonceStr:'',
+	signature:'',
+	jsApiList:[
+		'onMenuShareTimeline',
+       	'onMenuShareAppMessage'
+	]
+});
+wx.ready(function(){
+	wx.onMenuShareTimeline({
+		title:'陈丹青：在性命攸关的时候，教养实际是装不出来的',
+		link:'http://www.iooabc.com.cn/public/detail/1/17750/8786/TYaq/wwfx',
+		imgUrl:'http://www.iooabc.mobi/imgp/2017-03/1490527106208297.jpg',
+		success:function(){
+			window.location.href=window.location.href;
+		},
+		cancel:function(){
+			//alert("发送失败，可能是网络问题，一会儿再试试？");
+		},
+		fail:function(){
+			//alert("发送失败，可能是网络问题，一会儿再试试？");
+		}
+	});
+	wx.onMenuShareAppMessage({
+		title:'陈丹青：在性命攸关的时候，教养实际是装不出来的',
+		link:'http://www.iooabc.com.cn/public/detail/1/17750/8786/TYaq/wwfx',
+		imgUrl:'http://www.iooabc.mobi/imgp/2017-03/1490527106208297.jpg',
+		success:function(){
+			window.location.href=window.location.href;
+		},
+		cancel:function(){ 
+			//alert("分享失败，可能是网络问题，一会儿再试试？");
+		},
+		fail:function(){
+			//alert("分享失败，可能是网络问题，一会儿再试试？");
+		}
+	});
+});
+</script> 
+<script type="text/javascript">
+			var Max = 7621;
+			var Min = 612;
+			var Range = Max - Min;
+			var Rand = Math.random();   
+			var num = Min + Math.round(Rand * Range);
+			document.write(num);
+			
+		</script>
+     <script src="http://s4.cnzz.com/z_stat.php?id=1258580181&amp;web_id=1258580181" language="JavaScript"></script> 
+    <script>
+$(document).ready(function () { //阅读全文
+	setTimeout("zhankai()",2000);
+}); 
+function zhankai(){
+	var content_height = $('#js_content').height();
+    if (content_height > 1500) {//1613
+        $('.view_all').css('display', 'block');
+        $('.hide_box').css('display', 'block');
+        $('#js_content').addClass('hide_content');
+        var newh = $('#js_content').height();
+        $('#zk').click(function () {
+        	newh = $('#js_content').height()+1500;
+        	if(newh<content_height){
+        		$('#js_content').css('height',newh);
+        	}else{
+        		$('#js_content').removeClass('hide_content');
+ 	            $('.view_all').css('display', 'none');
+ 	            $('.hide_box').css('display', 'none');
+        		$('#js_toobar').css('display',"block");
+        		$('#js_content').css('height',content_height);
+        	}
+        });
+    }else {
+        $('.hide_box').css('display', 'none');
+		$('#js_toobar').css('display',"block");
+    }
+}
+
+</script>  
